@@ -4,3 +4,10 @@ export const getContent = (data) => {
         payload: data
     }
 }
+
+export const getContentDetail = (data) => {
+    return {
+        type: 'DETAIL_CONTENT',
+        payload: data
+    }
+}
